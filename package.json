@@ -1,0 +1,21 @@
+{
+    "name": "stouf-color-theme",
+    "displayName": "Stouf Color Theme",
+    "description": "Color Theme by Stouf",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Stouf Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Stouf Dark-color-theme.json"
+            }
+        ]
+    }
+}
